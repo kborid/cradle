@@ -1,0 +1,4 @@
+#Tue Jan 22 11:14:05 CST 2019
+base.0=E\:\\workspace\\cradle\\PLocProvider\\build\\intermediates\\transforms\\dexMerger\\doctorOfficial\\debug\\9
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="26"
+    build-mode="COLD"
+    density="xxhdpi"
+    format="10"
+    plugin-version="3.2.0"
+    timestamp="1548126920284"
+    token="4793845581876975579"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build
+        build-mode="FULL"
+        timestamp="1548126206066"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="E:\workspace\cradle\PLocProvider\build\intermediates\resources\instant-run\doctorOfficial\debug\resources-doctorOfficial-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\workspace\cradle\PLocProvider\build\intermediates\split-apk\doctorOfficial\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\workspace\cradle\PLocProvider\build\intermediates\split-apk\doctorOfficial\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\workspace\cradle\PLocProvider\build\intermediates\split-apk\doctorOfficial\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\workspace\cradle\PLocProvider\build\intermediates\split-apk\doctorOfficial\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\workspace\cradle\PLocProvider\build\intermediates\split-apk\doctorOfficial\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\workspace\cradle\PLocProvider\build\intermediates\split-apk\doctorOfficial\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\workspace\cradle\PLocProvider\build\intermediates\split-apk\doctorOfficial\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\workspace\cradle\PLocProvider\build\intermediates\split-apk\doctorOfficial\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\workspace\cradle\PLocProvider\build\intermediates\split-apk\doctorOfficial\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\workspace\cradle\PLocProvider\build\intermediates\split-apk\doctorOfficial\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\workspace\cradle\PLocProvider\build\intermediates\split-apk\doctorOfficial\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\workspace\cradle\PLocProvider\build\intermediates\instant-run-apk\doctorOfficial\debug\JumaFMTransmitterdoctorOfficialDebug-1.0.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1548126623834"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="E:\workspace\cradle\PLocProvider\build\intermediates\split-apk\doctorOfficial\debug\slices\slice_0.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1548126841169"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="E:\workspace\cradle\PLocProvider\build\intermediates\split-apk\doctorOfficial\debug\slices\slice_9.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1548126920284"
+        verifier="COLD_SWAP_REQUESTED" />
+
+</instant-run>

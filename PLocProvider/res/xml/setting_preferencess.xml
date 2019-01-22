@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="root">
+    <PreferenceCategory android:title="@string/bluetooth_setting">
+        <Preference android:key="bluetooth_connecting" android:title="@string/bluetooth_connect"/>
+        <Preference android:key="search_device" android:title="@string/search_device"/>
+        <CheckBoxPreference android:title="@string/use_last_location" android:key="use_last_location" android:summary="@string/use_last_location_summary"/>
+        <CheckBoxPreference android:summary="@string/main_tip_summary" android:title="@string/main_tip" android:key="enter_navi_direction"/>
+        </PreferenceCategory>
+    <PreferenceCategory android:title="@string/default_option">
+        <com.pioneer.cradle.PLocProvider.components.IconListPreference android:title="@string/default_navi_app" android:key="default_navi_app"/>
+        <com.pioneer.cradle.PLocProvider.components.IconListPreference android:title="@string/default_music_app" android:key="default_music_app"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/reset_learn_title">
+        <Preference android:key="clear_learn" android:title="@string/reset_learn_state" android:summary="@string/reset_learn_summary"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/app_info">
+        
+        <Preference android:title="@string/contract" android:key="contract"/>
+        <Preference android:key="app_version" android:title="@string/app_version" style="?android:preferenceInformationStyle"/>
+     </PreferenceCategory>
+    <PreferenceCategory android:key="debug" android:title="@string/debug_menu">
+        <Preference android:title="@string/location_info" android:key="location_info" />
+        <Preference android:title="@string/debug_setting" android:key="cradle_setting" /><Preference android:title="@string/debug_menu_off" android:key="debug_off"/>
+        
+   </PreferenceCategory>
+    
+    
+
+</PreferenceScreen>

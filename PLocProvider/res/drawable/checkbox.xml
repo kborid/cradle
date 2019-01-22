@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+     <!-- Enabled states -->
+        
+    <item android:state_checked="true" android:state_window_focused="false"
+          android:state_enabled="true"
+          android:drawable="@drawable/ca_home_007c" />
+    <item android:state_checked="false" android:state_window_focused="false"
+          android:state_enabled="true"
+          android:drawable="@drawable/ca_home_007a" />
+
+    <item android:state_checked="true" android:state_pressed="true"
+          android:state_enabled="true"
+          android:drawable="@drawable/ca_home_007b" />
+    <item android:state_checked="false" android:state_pressed="true"
+          android:state_enabled="true"
+          android:drawable="@drawable/ca_home_007b" />
+
+    <item android:state_checked="false"
+          android:state_enabled="true"
+          android:drawable="@drawable/ca_home_007a" />
+    <item android:state_checked="true"
+          android:state_enabled="true"
+          android:drawable="@drawable/ca_home_007c" />
+
+
+    <!-- Disabled states -->
+
+    <item android:state_checked="true" android:state_window_focused="false"
+          android:drawable="@drawable/ca_home_007c" />
+    <item android:state_checked="false" android:state_window_focused="false"
+          android:drawable="@drawable/ca_home_007a" />
+
+
+    <item android:state_checked="false" android:drawable="@drawable/ca_home_007a" />
+    <item android:state_checked="true" android:drawable="@drawable/ca_home_007c" />
+
+</selector>

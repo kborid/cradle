@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/debug_setting">
+        <CheckBoxPreference android:key="gps_log_enable" android:title="GPS Log File Enable"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="cradle setting">
+        <CheckBoxPreference android:key="sns_log" android:title="SNS Log"/>
+        <CheckBoxPreference android:key="nmea_log" android:title="NMEA Log"/>
+        <!-- <Preference android:key="clear_learn" android:title="Clear Learn"/> -->
+        <Preference android:key="set_Dymset" android:title="Dummy set"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">先锋智航连客</string>
+    
+    <string name="app_starting">启动中...</string>
+    
+    <string name="main_navi">导航</string>
+    <string name="main_music">音乐</string>
+    <string name="main_phone">电话</string>
+    <string name="main_setting">设定</string>
+    <string name="main_tip">直接进入导航</string>
+    <string name="main_tip_summary">勾选此项，当手机蓝牙连接cradle后，手机将自动启动导航程序。 不勾选此项，则进入本应用程序。</string>
+    
+    <string name="bluetooth_disable_tip">蓝牙设定未打开，Cradle的连接依赖于蓝牙，是否打开蓝牙？</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    
+    <string name="cradle_search">搜索智能手机导航基座</string>
+    
+    <string name="more_navi_tip">找到多个导航程序，请在设定里面设置默认程序。</string>
+    <string name="more_music_tip">找到多个音乐程序，请在设定里面设置默认程序。</string>
+    <string name="no_navi_tip">没有发现导航程序.</string>
+    <string name="no_music_tip">没有发现音乐程序.</string>
+    <string name="no_phone_tip">没有发现拨号程序.</string>
+    <string name="no_navi_set_tip">没有设定导航程序, 请在设定里面设置默认程序。</string>
+    
+    <string name="bluetooth_connect">Cradle 连接</string>
+    <string name="bluetooth_connect_no_connected">目前没有连接到任何Cradle设备</string>
+    <string name="bluetooth_connect_connected_device">已经连接到</string>
+    <string name="search_device">检索已经配对的设备</string>
+    <string name="use_last_location">使用最后的位置</string>
+    <string name="use_last_location_summary">勾选此项，开机后将优先显示关机前的最后位置，迅速定位。（推荐把cradle长期固定在同一车辆上的用户使用）</string>
+    <string name="reset_learn_title">重置</string>
+    <string name="reset_learn_state">重置学习状态</string>
+    <string name="reset_learn_summary">当改变过基座摆放位置或者方向后，需要使用此按钮重置基座定位的学习状态。</string>
+    <string name="reset_learn_message">重置学习状态会导致在短时间内，基座仅能依靠GPS信号进行定位。在此期间，进入隧道、高架桥下等GPS信号不好的地方，会出现短暂的定位失灵。\n\n确认需要重置学习状态么吗？</string>
+    <string name="connected_device">连接设备</string>
+    <string name="default_option">默认选项</string>
+    <string name="default_navi_app">默认导航软件</string>
+    <string name="default_music_app">默认音乐软件</string>
+    <string name="app_info">软件信息</string>
+    <string name="app_version">版本信息</string>
+    <string name="contract">协议许可</string>
+    
+    <string name="debug_menu">调试菜单</string>
+    <string name="location_info">位置信息</string>
+    <string name="debug_setting">调试设定</string>
+    <string name="debug_menu_off">关闭调试菜单</string>
+    
+    <string name="no_option_tip">没有选项可供选择</string>
+    
+    <string name="dead_line_tip">此版本已经过期，请重新索要最新版本。</string>    
+    
+    <string name="cradle_status">Cradle状态</string>
+    <string name="latitude">纬度</string>
+    <string name="longitude">经度</string>
+    <string name="altitude">海拔</string>
+    <string name="speed">速度</string>
+    <string name="angel">方向</string>
+    <string name="dimension">精度</string>
+    <string name="time">时间</string>
+    <string name="learn_status">学习状态</string>
+    
+    <string name="bluetooth_setting">智能手机基座设定</string>
+    <string name="paired_devices">已配对的设备</string>
+    <string name="recently_connected_devices">最近连接的设备</string>
+    <string name="bt_off_tip">蓝牙设定已关闭，请先打开蓝牙设置</string>
+    <string name="no_connect">未连接</string>
+    <string name="connecting">连接中...</string>
+    <string name="connect_fail">连接失败</string>
+    <string name="connect_scuccess">连接成功</string>
+    
+    <string name="disconnect_confirm">是否要断开连接?</string>
+    
+    <string name="exit_tip">再按一下退出</string>
+    
+    <string name="quit">退出</string>
+    <string name="agree">同意</string>
+</resources>

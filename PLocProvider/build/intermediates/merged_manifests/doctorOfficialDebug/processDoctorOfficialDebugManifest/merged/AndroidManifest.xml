@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pioneer.cradle.PLocProvider"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+
+    <application
+        android:name="com.pioneer.cradle.PLocProvider.LocationApp"
+        android:debuggable="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:taskAffinity="com.pioneer.cradle.PLocProvider"
+        android:testOnly="true" >
+        <receiver
+            android:name="com.pioneer.cradle.PLocProvider.receiver.PLocBootReceiver"
+            android:process="com.pioneer.cradle.service" >
+            <intent-filter>
+                <action android:name="android.bluetooth.device.action.ACL_CONNECTED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.bluetooth.device.action.BOND_STATE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.pioneer.cradle.PLocProvider.receiver.ShutdownBroadcastReceiver"
+            android:process="com.pioneer.cradle.service" >
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.pioneer.cradle.PLocProvider.PLocProviderService"
+            android:label="@string/service_name"
+            android:process="com.pioneer.cradle.service" >
+            <intent-filter>
+                <action android:name="com.pioneer.cradle.PLocProvider.PLocProviderService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.pioneer.cradle.PLocProvider.Screen.BluetoothConnect"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.pioneer.cradle.PLocProvider.Screen.MainActivity"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="com.pionner.cradle.intent.call" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pioneer.cradle.PLocProvider.Screen.Contract" />
+        <activity
+            android:name="com.pioneer.cradle.PLocProvider.Screen.Setting"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.pioneer.cradle.PLocProvider.Screen.CradleSetting" />
+        <activity android:name="com.pioneer.cradle.PLocProvider.Screen.CradleGpsInfo" />
+        <activity android:name="com.pioneer.cradle.PLocProvider.Screen.LocationInfo" />
+        <activity android:name="com.pioneer.cradle.PLocProvider.Screen.SatelliteInfo" />
+        <activity
+            android:name="com.pioneer.cradle.PLocProvider.Screen.Launcher"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

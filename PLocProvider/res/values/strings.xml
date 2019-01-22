@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Pioneer Cradle-Link</string>
+    <string name="service_name">PLocProvider_service</string>
+    
+    <string name="app_starting">Starting...</string>
+    
+    <string name="main_navi">Navigation</string>
+    <string name="main_music">Music</string>
+    <string name="main_phone">Phone</string>
+    <string name="main_setting">Setting</string>
+    <string name="main_tip">Enter default navigation direction</string>
+    <string name="main_tip_summary">Check on this option, navigation app will be open when this phone bluetooth connect to Cradle, otherwise this application will be open.</string>
+
+    <string name="bluetooth_disable_tip">Bluetooth disabled, you need bluetooth connect Cradle, do you want open bluetooth?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    
+    <string name="cradle_search">Search smartphone foundationbed</string>
+    <string name="more_navi_tip">have more than 1 Navi app, go to setting select default app.</string>
+    <string name="more_music_tip">have more than 1 music player, go to setting select default app.</string>
+    <string name="no_navi_tip">Navi APP not found.</string>
+    <string name="no_music_tip">Music Player not found.</string>
+    <string name="no_phone_tip">Phone APP not found.</string>
+    <string name="no_navi_set_tip">Navi APP not set, go to setting select default app.</string>
+    
+    <string name="bluetooth_connect">Cradle connect</string>
+    <string name="bluetooth_connect_no_connected">No conntect to cradle device.</string>
+    <string name="bluetooth_connect_connected_device">Connected to</string>
+    <string name="search_device">Search paried devices</string>
+    <string name="use_last_location">Use the last Location</string>
+    <string name="use_last_location_summary">Select this option, after open the phone, this app will use the last location, quickly point. (recommend to someone who use cradle in the same car)</string>
+    <string name="reset_learn_title">Reset</string>
+    <string name="reset_learn_state">Reset for learning</string>
+    <string name="reset_learn_summary">After changed the fixed-position or direction of your Cradle, please use this button to reset your Cradle for learning how to locate itself again.(“Reset for learning”) </string>
+    <string name="reset_learn_message">“Reset for learning” maybe result in below problems: in short time, your cradle locate itself only by it’s GPS signal. During this time,if your vehicle go into the tunnel,or under the high-way where GPS signal is not good, your cradle will show positioning failure temporarily.\n\nDo you confirm to “Reset for learning”? </string>
+    <string name="connected_device">Connected device</string>
+    <string name="default_option">Default option</string>
+    <string name="default_navi_app">Default navigation application</string>
+    <string name="default_music_app">Default music application</string>
+    <string name="app_info">Information</string>
+    <string name="app_version">Version information</string>
+    <string name="contract">Contract</string>
+
+    <string name="debug_menu">Debug menu</string>
+    <string name="location_info">Location information</string>
+    <string name="debug_setting">Debug setting</string>
+    <string name="debug_menu_off">Off Debug menu</string>
+    
+    
+    <string name="no_option_tip">No option to select</string>
+    
+    <string name="dead_line_tip">This version has expired, please re-check new version.</string>
+    
+    <string name="cradle_status">Cradle status</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="altitude">Altitude</string>
+    <string name="speed">Speed</string>
+    <string name="angel">Angel</string>
+    <string name="dimension">Dimension</string>
+    <string name="time">Time</string>
+    <string name="learn_status">Learn status</string>
+    
+    <string name="bluetooth_setting">Smartphone foundationbed setting</string>
+    <string name="paired_devices">Paired devices</string>
+    <string name="recently_connected_devices">Recently connected devices</string>
+    <string name="bt_off_tip">Bluetooth set Off, please set bluetooth on first</string>
+    <string name="no_connect">No conntect</string>
+    <string name="connecting">Connecting...</string>
+    <string name="connect_fail">Conntect failed</string>
+    <string name="connect_scuccess">Conntect scuccess</string>
+    
+    <string name="disconnect_confirm">Want disconnect device?</string>
+    
+    <string name="exit_tip">Press again to exit</string>
+    
+    <string name="quit">Quit</string>
+    <string name="agree">Agree</string>
+</resources>
